@@ -1,0 +1,208 @@
+[
+	{
+		"id": "4032021110800815207300930",
+		"title": "Anestesiologia Veterinária (Prat, turmas Z)",
+		"allDay": false,
+		"startTime": "07:30",
+		"endTime": "09:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			4
+		]
+	},
+	{
+		"id": "4032021110800815209301130",
+		"title": "Anestesiologia Veterinária (Prat, turmas Z1)",
+		"allDay": false,
+		"startTime": "09:30",
+		"endTime": "11:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			4
+		]
+	},
+	{
+		"id": "4032021110800815213301530",
+		"title": "Anestesiologia Veterinária (Teor, turmas Z,Z1)",
+		"allDay": false,
+		"startTime": "13:30",
+		"endTime": "15:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			1
+		]
+	},
+	{
+		"id": "4032021110800815313301630",
+		"title": "Doenças Infecciosas dos Animais Domésticos (Teor, turmas Z)",
+		"allDay": false,
+		"startTime": "13:30",
+		"endTime": "16:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			2
+		]
+	},
+	{
+		"id": "4032021110800815315301730",
+		"title": "Doenças Infecciosas dos Animais Domésticos (Teor, turmas Z)",
+		"allDay": false,
+		"startTime": "15:30",
+		"endTime": "17:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			1
+		]
+	},
+	{
+		"id": "4032021110800815407300930",
+		"title": "Doenças Parasitárias dos Animais Domésticos (Teor, turmas Z)",
+		"allDay": false,
+		"startTime": "07:30",
+		"endTime": "09:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			2
+		]
+	},
+	{
+		"id": "4032021110800815415301730",
+		"title": "Doenças Parasitárias dos Animais Domésticos (Teor, turmas Z)",
+		"allDay": false,
+		"startTime": "15:30",
+		"endTime": "17:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			4
+		]
+	},
+	{
+		"id": "4032021110800815507300930",
+		"title": "Patologia Clinica Veterinária (Teor, turmas Z,Z1,Z2)",
+		"allDay": false,
+		"startTime": "07:30",
+		"endTime": "09:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			1,
+			5
+		]
+	},
+	{
+		"id": "4032021110800815509301030",
+		"title": "Patologia Clinica Veterinária (Prat, turmas Z,Z2)",
+		"allDay": false,
+		"startTime": "09:30",
+		"endTime": "10:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			1,
+			5
+		]
+	},
+	{
+		"id": "4032021110800815510301130",
+		"title": "Patologia Clinica Veterinária (Prat, turmas Z1)",
+		"allDay": false,
+		"startTime": "10:30",
+		"endTime": "11:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			5
+		]
+	},
+	{
+		"id": "4032021110800815613301430",
+		"title": "Doenças das Aves (Prat, turmas Z)",
+		"allDay": false,
+		"startTime": "13:30",
+		"endTime": "14:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			4
+		]
+	},
+	{
+		"id": "4032021110800815614301530",
+		"title": "Doenças das Aves (Prat, turmas Z1)",
+		"allDay": false,
+		"startTime": "14:30",
+		"endTime": "15:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			4
+		]
+	},
+	{
+		"id": "4032021110800815713301530",
+		"title": "Animais Peçonhentos e Venenosos (Teor, turmas Z,Z1)",
+		"allDay": false,
+		"startTime": "13:30",
+		"endTime": "15:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			5
+		]
+	},
+	{
+		"id": "4032021110800815715301630",
+		"title": "Animais Peçonhentos e Venenosos (Prat, turmas Z)",
+		"allDay": false,
+		"startTime": "15:30",
+		"endTime": "16:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			5
+		]
+	},
+	{
+		"id": "4032021110800815716301730",
+		"title": "Animais Peçonhentos e Venenosos (Prat, turmas Z1)",
+		"allDay": false,
+		"startTime": "16:30",
+		"endTime": "17:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			5
+		]
+	},
+	{
+		"id": "4032021110800815807301030",
+		"title": "Fisiopatologia da Reprodução Animal (Teor, turmas Z)",
+		"allDay": false,
+		"startTime": "07:30",
+		"endTime": "10:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			3
+		]
+	},
+	{
+		"id": "4032021110800815810301130",
+		"title": "Fisiopatologia da Reprodução Animal (Prat, turmas Z)",
+		"allDay": false,
+		"startTime": "10:30",
+		"endTime": "11:30",
+		"startRecur": "2022-04-01",
+		"endRecur": "2022-05-14",
+		"daysOfWeek": [
+			3
+		]
+	}
+]

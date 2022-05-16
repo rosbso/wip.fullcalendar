@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wip.fullcalendar", "wip.fullcalendar\wip.fullcalendar.csproj", "{168D6410-4533-4CFF-8AFD-8EF389DBAAD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168D6410-4533-4CFF-8AFD-8EF389DBAAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168D6410-4533-4CFF-8AFD-8EF389DBAAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168D6410-4533-4CFF-8AFD-8EF389DBAAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168D6410-4533-4CFF-8AFD-8EF389DBAAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC44D5C7-561C-4EEF-B7A0-7014163B5606}
+	EndGlobalSection
+EndGlobal

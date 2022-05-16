@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Calendario";
+}
+
+@section style {
+    <!-- FullCalendar -->
+    <link rel="stylesheet" href="~/css/fullcalendar.main.min.css"  />
+    <style>
+        .fc-timeGridDay-view .fc-event-title{
+            white-space: normal!important;
+        }
+
+        .fc-dayGridMonth-view .fc-daygrid-dot-event .fc-event-title{
+            white-space: normal!important;
+        }
+
+    </style>
+}
+
+<div id='calendar'></div>
+
+@{
+}
+
+
+@section scripts {
+    <!-- FullCalendar
+        https://stackoverflow.com/questions/66801842/using-fullcalendar-icalendar-with-script-tags
+    -->
+    <script src="~/js/fullcalendar.main.min.js"></script>
+    <script src="~/js/fullcalendar.pt-br.js"></script>
+    <script src="~/js/ical.min.js"></script>
+    <script src="~/js/icalendar.main.global.min.js"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                //eventDidMount: function(event, element) {
+                //    $(element).append('<span>asdasd</span>');
+                //},
+                eventDidMount: function(info){
+                    if(info.view.type == 'dayGridMonth'){
+                        var toolip = new bootstrap.Tooltip(info.el, {
+                            title: info.event.title,
+                        })
+                    }
+                },
+                slotDuration: '00:30:00',
+                locale: 'pt-br',
+                //timeZone: 'local',
+                initialView: 'dayGridMonth',
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek',
+                },
+                slotMinTime: "06:00:00",
+                expandRows: true,
+                nowIndicator: true,
+                navLinks: true,
+                businessHours: {
+                    daysOfWeek: [1, 2, 3, 4, 5, 6],
+                    startTime: '06:00',
+                    endTime: '23:30',
+                },
+                eventTimeFormat: {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false
+                },
+                //events: 
+                //events: '@Url.RouteUrl(new{ action="GetEvents", controller="Home"})'
+                eventSources:[
+                    {
+                        url: '@Url.RouteUrl(new{ action="GetEvents", controller="Home"})',
+                        color: '#039BE5', // azul
+                        //color: '#A79B8E', // beje
+                        // color: '#0B8043' // verde
+                    },
+                    {
+                        url: "/calendarioufmt.ics",
+                        //url: "https://calendar.google.com/calendar/ical/c_gbcjvd5u2ef4f9c5thvecp3750%40group.calendar.google.com/public/basic.ics",
+                        format: "ics",
+                        color: '#A79B8E', // beje
+                    }
+                ]
+            });
+            calendar.render();
+        });
+    </script>
+}
